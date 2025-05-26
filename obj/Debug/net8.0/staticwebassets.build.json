@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FZ5AuuvbNxQxXJiM6pHtSN2ONIpXIUlaoRrx+e3X+Rk=",
+  "Source": "FullApi",
+  "BasePath": "_content/FullApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
