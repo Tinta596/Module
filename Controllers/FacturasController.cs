@@ -27,7 +27,7 @@ namespace FullApi.Controllers
                 .ToListAsync();
         }
 
-        // GET: api/Facturas/5
+        // GET: api/Facturas/id
         [HttpGet("{id}")]
         public async Task<ActionResult<Factura>> GetFactura(int id)
         {
@@ -60,7 +60,7 @@ namespace FullApi.Controllers
             return CreatedAtAction(nameof(GetFactura), new { id = factura.FacturaId }, factura);
         }
 
-        // DELETE: api/Facturas/5
+        // DELETE: api/Facturas/id
         [HttpDelete("{id}")]
         public async Task<IActionResult> EliminarFactura(int id)
         {
